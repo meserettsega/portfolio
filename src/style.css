@@ -14,7 +14,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('../OIP\ \(2\).webp') no-repeat center center fixed;
+  background: url('../public/background.webp') no-repeat center center fixed;
   background-size: cover;
   color: var(--text-light);
   transition: all 0.3s ease-in-out;

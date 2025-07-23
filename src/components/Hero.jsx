@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import '../Hero.css'
-
+import profilepic from '../assets/profile.JPG';
 const Hero = () => (
   <section className="section intro">
     <div className="intro-content">
       <motion.img
-        src="/profile.JPG"
+        src={profilepic}
         alt="Meseret Tsega"
         className="profile-pic"
         initial={{ opacity: 0, scale: 0.8 }}

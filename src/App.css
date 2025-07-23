@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #007acc;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 10px;
+}
+
+.section {
+  background-color: white;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.skills-icons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #007acc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark body {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark .section {
+  background-color: #2c2c2c;
+}
+
+.dark .navbar {
+  background-color: #333;
+}
+
+.dark .contact-form input,
+.dark .contact-form textarea {
+  background-color: #444;
+  color: white;
+  border: 1px solid #555;
+}

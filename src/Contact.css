@@ -1,0 +1,104 @@
+.contact-section {
+  background-image: url('/contact.jpg') ; /* Replace with your actual path */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 40px;
+  position: relative;
+  color: white;
+}
+
+.contact-overlay {
+  /* background: rgba(0, 0, 0, 0.048); */
+  padding: 60px 0;
+}
+
+.contact-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.contact-info {
+  flex: 1;
+  color: #eee;
+}
+
+.contact-info p {
+  margin: 12px 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info a {
+  color: #00aced;
+  text-decoration: none;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #555;
+}
+
+.contact-form button.btn-gradient {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button.btn-gradient:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}

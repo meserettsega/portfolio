@@ -1,0 +1,66 @@
+.footer {
+background: linear-gradient(to right, #1f2937, #111827);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  /* border-top-left-radius: 40px;
+  border-top-right-radius: 40px; */
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #ddd;
+}
+
+.footer-socials {
+  margin: 1rem 0;
+}
+
+.social-link {
+  margin: 0 10px;
+  font-size: 1.6rem;
+  transition: transform 0.3s ease, color 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+  color: #ffca28;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #bbb;
+}
+.footer-socials a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #00bcd4; /* Change to your preferred accent color */
+}
